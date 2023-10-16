@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+
+  <!-- bootstrap css cdn link  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+  <!-- custom css file -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- bootstrap icon cdn link  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+
+  <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- jquery cdn link  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <link rel="icon" type="image/x-icon" href="./images/images/logo2.jpg">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+  <!-- navbar starts -->
+  <nav id="navbar-top" class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <div class="container-fluid px-5">
+      <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"><img src="./images/images/icons/logo3.jpg"
+          alt="" style="width: 50px;">Portfolio</a>
+      <button class="nav-menu d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="bi bi-menu-button-fill"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonial">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#achievements">Achievements</a>
+          </li>
+        </ul>
+      </div>
+      <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block"><a href="https://wa.me/918714572312?text=Hello%20there"
+          target="_blank" style="text-decoration: none; color: #fff;">Contact</a></button>
+    </div>
+  </nav>
+  <!-- navbar ends here -->
+
+  <!-- home section starts  -->
+  <section class="home pt-5 pb-5" id="home">
+    <div class="row justify-content-evenly align-middle">
+      <!-- here data-aos is used for adding aos animation  -->
+      <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+        <h2 style="color: #3f396d">
+          Hello! I Am <br /><span class="c-orange">Mick Suraj</span>
+        </h2>
+        <p id="changing-word-paragraph" style="font-size: 40px;">I'm a <span id="changing-word" style="font-weight: bold;">Web Designer</span></p>
+
+        <p class="text-muted">
+          I'm A Web Developer having 1 years of experience in expertise of
+          creating website with fully responsive. Also with backend part too.
+        </p>
+        <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+          <a href="https://www.truelancer.com/freelancer/tluser50b0c73" target="_blank" style="text-decoration: none;color: #fff;">Hire
+            Me!</a>
+        </button>
+        <a href="" class="link ms-4 d-none">See My Work</a>
+      </div>
+      <div class="col-10 col-md-4 d-none d-md-block">
+        <img src="images/mick3.png" class="img-fluid" alt="" style="width: 1000px;" />
+      </div>
+    </div>
+  </section>
+  <!-- home section ends here -->
+
+  <!-- expertise section starts -->
+  <section class="expertise mt-5" id="service">
+    <div class="heading text-center">
+      <small>My Expertise</small>
+      <h3>
+        Provide Wide Range of <br />
+        Digital Services
+      </h3>
+    </div>
+    <div class="row justify-content-evenly mt-5">
+      <div class="col-10 col-md-4" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img src="images/service-icon1.png" class="w-25 img-fluid img" alt="" />
+          </div>
+          <div class="content mt-3">
+            <h4>Web Design</h4>
+            <p class="text-muted">
+              "I possess strong web design skills, combining creativity and technical expertise to create visually
+              engaging and user-friendly websites that stand out."
+            </p>
+            <a href="https://www.crowdbotics.com/blog/aesthetics-in-modern-web-design"  target="_blank" class="link">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-10" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img src="images/service-icon2.png" class="w-25 img-fluid img" alt="" />
+          </div>
+          <div class="content mt-3">
+            <h4>Web Development</h4>
+            <p class="text-muted">
+              "Experienced web developer skilled in HTML, CSS, JavaScript, and frameworks like React. Proficient in
+              creating responsive, dynamic, and user-friendly websites."
+            </p>
+            <a href="https://blog.hubspot.com/website?hubs_content=blog.hubspot.com%2Fwebsite%2Fwebsite-development&hubs_content-cta=null&hubs_post-cta=blognavcard-website" target="_blank" class="link">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-10" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img src="images/service-icon3.png" class="w-25 img-fluid img" alt="" />
+          </div>
+          <div class="content mt-3">
+            <h4>Debugging</h4>
+            <p class="text-muted">
+              "My debugging skills involve swiftly identifying and resolving software issues, ensuring seamless
+              functionality and enhancing the user experience."
+            </p>
+            <a href="https://www.toptal.com/qa/7-debugging-techniques-prod" target="_blank" class="link">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- expertise section ends here -->
+
+  <!-- skill section starts -->
+  <section class="skill mt-5 py-5" id="about">
+    <div class="row justify-content-evenly">
+      <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+        <div class="row justify-content-evenly">
+          <div class="col-10 col-md-6">
+            <div class="progress-card ms-3 ms-md-0">
+              <div class="circular-progress html-css">
+                <span class="progress-value html-progress">0%</span>
+              </div>
+              <br />
+              <span class="text">HTML & CSS</span>
+            </div>
+          </div>
+          <div class="col-10 col-md-6 mt-4 mt-md-0">
+            <div class="progress-card ms-3 ms-md-0">
+              <div class="circular-progress javascript">
+                <span class="progress-value javascript-progress">0%</span>
+              </div>
+              <br />
+              <span class="text">ReactJS</span>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mt-4">
+          <div class="col-10 col-md-6">
+            <div class="progress-card ms-3 ms-md-0">
+              <div class="circular-progress php">
+                <span class="progress-value php-progress">0%</span>
+              </div>
+              <br />
+              <span class="text">Python</span>
+            </div>
+          </div>
+          <div class="col-10 col-md-6 mt-4 mt-md-0">
+            <div class="progress-card ms-3  ms-md-0">
+              <div class="circular-progress reactjs">
+                <span class="progress-value reactjs-progress">0%</span>
+              </div>
+              <br>
+              <span class="text">Javascript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+        <div class="heading mt-5 mt-md-3">
+          <small>My Skills</small>
+          <h3>Beautiful & Unique Digital Experiences</h3>
+          <p class="text-muted">
+            Frontend: Proficient in HTML, CSS, JavaScript, React, jQuery, Bootstrap, and Tailwind, ensuring dynamic,
+            responsive, and visually appealing web interfaces.
+          </p>
+          <p class="text-muted">
+            Backend: Skilled in Python and Django, adept at developing robust server-side applications, managing
+            databases, and implementing secure, efficient back-end functionality.
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            <!-- here download attribute is used for adding download functionality to button  -->
+            <a href="./images/Resume-Mick-Suraj.pdf" download style="text-decoration: none;color: #fff;">Download
+              Me!</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- skill section end here -->
+
+  <!-- portfolio section starts here -->
+  <section class="portfolio" id="portfolio">
+    <div class="heading text-center pt-5">
+      <small>Creative Work</small>
+      <h3>Check My Portfolio</h3>
+    </div>
+
+    <div id="myBtnContainer" class="text-center mt-4">
+      <!-- here we will create custom attribute using data- for filtering -->
+      <button class="filter-item" data-filter="all">All</button>
+      <button class="filter-item" data-filter="game">Game</button>
+      <button class="filter-item" data-filter="webapp">Web App</button>
+      <button class="filter-item" data-filter="website">Website</button>
+    </div>
+    <div class="portfolio-body">
+      <div class="row justify-content-evenly px-4">
+        <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/Leonardo_Diffusion_give_me_a_rock_paper_scissor_game_thumbnail_0.jpg" class="card-img-top"
+              alt="..." />
+            <div class="card-body text-center">
+              <h4 class="card-title">Rock Paper Scissor</h4>
+              <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+              <span class="badge bg-secondary badge-pill">PYTHON</span>
+              <span class="badge bg-secondary badge-pill mb-2">Game</span><br />
+              <a href="#" class="link">On Going...</a>
+            </div>
+          </div>
+        </div>
+        <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/Leonardo_Diffusion_give_me_a_Digital_clock_thumbnail_image_0.jpg" class="card-img-top"
+              alt="..." />
+            <div class="card-body text-center">
+              <h4 class="card-title">Digital Clock</h4>
+              <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+              <span class="badge bg-secondary badge-pill">PYTHON</span>
+              <span class="badge bg-secondary badge-pill mb-2">Website</span><br />
+              <a href="#" class="read-more-btn link">On Going...</a>
+            </div>
+          </div>
+        </div>
+        <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/netflix.png" class="card-img-top" alt="..." style="height: 320px;" />
+            <div class="card-body text-center">
+              <h4 class="card-title">Netflix</h4>
+              <span class="badge bg-secondary badge-pill">REACT</span>
+              <span class="badge bg-secondary badge-pill">DJANGO</span>
+              <span class="badge bg-secondary badge-pill mb-2">WebApp</span><br />
+              <a href="#" class="read-more-btn link">On Going...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-evenly mt-4 px-4">
+        <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/download.png" class="card-img-top" alt="..." style="height: 315px;" />
+            <div class="card-body text-center">
+              <h4 class="card-title">TicTacToe Game</h4>
+              <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+              <span class="badge bg-secondary badge-pill">PYTHON</span>
+              <span class="badge bg-secondary badge-pill mb-2">Game</span><br />
+              <a href="#" class="read-more-btn link">On Going...</a>
+            </div>
+          </div>
+        </div>
+        <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/Leonardo_Diffusion_give_me_a_digital_dictionary_thumbnail_imag_0.jpg" class="card-img-top"
+              alt="..." />
+            <div class="card-body text-center">
+              <h4 class="card-title">Dictionary</h4>
+              <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+              <span class="badge bg-secondary badge-pill">PYTHON</span>
+              <span class="badge bg-secondary badge-pill mb-2">Website</span><br />
+              <a href="#" class="read-more-btn link">On Going...</a>
+            </div>
+          </div>
+        </div>
+        <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/Leonardo_Diffusion_give_me_a_telegram_clone_chat_app_image_0.jpg" class="card-img-top"
+              alt="..." />
+            <div class="card-body text-center">
+              <h4 class="card-title">Chat UI</h4>
+              <span class="badge bg-secondary badge-pill">REACT</span>
+              <span class="badge bg-secondary badge-pill">JAVASCRIPT</span>
+              <span class="badge bg-secondary badge-pill mb-2">App</span><br />
+              <a href="#" class="read-more-btn link">On Going...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- portfolio section ends here -->
+
+  <!-- testimonial section starts  -->
+  <section class="testimonial mt-5 pt-5" id="testimonial">
+    <div class="row justify-content-evenly">
+      <div class="col-md-4 col-10" data-aos="slide-right">
+        <img src="images/tastimonials-img.png" class="img-fluid" alt="" />
+      </div>
+      <div class="col-md-6 col-10 mt-5" data-aos="slide-left">
+        <div class="heading">
+          <small>Testimonials</small>
+          <h3>Happy Clients Feedback</h3>
+          <!-- here we will use carousel element from bootstrap -->
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" style="transition-duration: 100ms;">
+              <div class="carousel-item active">
+                <div class="row justify-content-evenly">
+                  <div class="col-2 text-center">
+                    <i class="bi bi-quote"></i>
+                  </div>
+                  <div class="col-10">
+                    <p class="text-muted">
+                      Your website's frontend is exceptional! It's visually engaging, user-friendly, and responsive.
+                      The design perfectly complements your brand's identity...
+                    </p>
+                    <h4>Sobir N.</h4>
+                    <small class="fs-6 text-muted">CEO of Steyp</small>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row justify-content-evenly">
+                  <div class="col-2 text-center">
+                    <i class="bi bi-quote"></i>
+                  </div>
+                  <div class="col-10">
+                    <p class="text-muted">
+                      Your website's frontend is truly impressive! The design is sleek, navigation is smooth, and it's
+                      a joy to explore. Great job!...
+                    </p>
+                    <h4>Magniya Davis</h4>
+                    <small class="fs-6 text-muted">Class Tutor</small>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row justify-content-evenly">
+                  <div class="col-2 text-center">
+                    <i class="bi bi-quote"></i>
+                  </div>
+                  <div class="col-10">
+                    <p class="text-muted">
+                      Your website's frontend is visually stunning, user-friendly, and highly responsive. It's a great
+                      reflection of your brand's excellence...
+                    </p>
+                    <h4>Alfrin Poulose</h4>
+                    <small class="fs-6 text-muted">Colleague</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="nextprev-btn rounded-pill prev-btn" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <i class="bi bi-arrow-left-circle-fill prev"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="nextprev-btn rounded-pill next-btn" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <i class="bi bi-arrow-right-circle-fill next"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- testimonial ends here -->
+  <section class="portfolio" id="achievements">
+    <div class="heading text-center pt-5">
+      <small>Achievements</small>
+      <h3>Check My Achievements</h3>
+    </div>
+    <div class="portfolio-body">
+      <div class="row justify-content-evenly px-4">
+        <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/images/WhatsApp Image 2023-10-11 at 7.29.13 PM.jpeg" class="card-img-top" alt="..."
+              style="height: 320px;" />
+            <div class="card-body text-center">
+              <h4 class="card-title">Engineering Flash</h4>
+              <span class="badge bg-secondary badge-pill">CCE</span>
+              <span class="badge bg-secondary badge-pill">PRESENTATION</span>
+              <span class="badge bg-secondary badge-pill mb-2">15/09/2023</span><br />
+              <a href="https://www.linkedin.com/posts/mick-suraj-062b36252_cce-engineeringday-activity-7109235695596048384-J0EF?utm_source=share&utm_medium=member_android "
+                target="_blank" class="link">Click Me!</a>
+            </div>
+          </div>
+        </div>
+        <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/images/WhatsApp Image 2023-10-11 at 7.30.22 PM.jpeg" class="card-img-top" alt="..."
+              style="height: 320px;" />
+            <div class="card-body text-center">
+              <h4 class="card-title">Marketing Maveriks</h4>
+              <span class="badge bg-secondary badge-pill">CCE</span>
+              <span class="badge bg-secondary badge-pill">PRESENTATION</span>
+              <span class="badge bg-secondary badge-pill mb-2">09/06/2023</span><br />
+              <a href="https://www.linkedin.com/posts/mick-suraj-062b36252_cce-marketingmaveriks-managementskills-activity-7075140524264837120-pyGN?utm_source=share&utm_medium=member_android "
+                target="_blank" class="read-more-btn link">Click Me!</a>
+            </div>
+          </div>
+        </div>
+        <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/iist.jpg" class="card-img-top" alt="..." style="height: 320px;" />
+            <div class="card-body text-center">
+              <h4 class="card-title">Line-Follwer</h4>
+              <span class="badge bg-secondary badge-pill">IIST</span>
+              <span class="badge bg-secondary badge-pill">ROBOTICS</span>
+              <span class="badge bg-secondary badge-pill mb-2">07/11/2022</span><br />
+              <a href="https://www.linkedin.com/posts/mick-suraj-062b36252_iist-robotics-competition2022-activity-7047021199293386752-O7XH?utm_source=share&utm_medium=member_android "
+                target="_blank" class="read-more-btn link">Click Me!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-evenly mt-4 px-4">
+        <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/images/WhatsApp Image 2023-10-11 at 7.30.56 PM.jpeg" class="card-img-top" alt="..."
+              style="height: 320px;" />
+            <div class="card-body text-center">
+              <h4 class="card-title">Web It Up!</h4>
+              <span class="badge bg-secondary badge-pill">STEYP</span>
+              <span class="badge bg-secondary badge-pill">HACKATHON</span>
+              <span class="badge bg-secondary badge-pill mb-2">06/05/2023</span><br />
+              <a href="https://www.linkedin.com/posts/mick-suraj-062b36252_talrophackathon2023-steyp-activity-7061654176312819712-xPag?utm_source=share&utm_medium=member_android"
+                target="_blank" class="read-more-btn link">Click Me!</a>
+            </div>
+          </div>
+        </div>
+        <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/space.jpg" class="card-img-top" alt="..." style="height: 320px;" />
+            <div class="card-body text-center">
+              <h4 class="card-title">SpaceXplore</h4>
+              <span class="badge bg-secondary badge-pill">NASA</span>
+              <span class="badge bg-secondary badge-pill">HACKATHON</span>
+              <span class="badge bg-secondary badge-pill mb-2">07/10/2023</span><br />
+              <a href="https://www.linkedin.com/posts/mick-suraj-062b36252_spacexplore-nasa-spaceappschallenge-activity-7118611656502296576-moa2?utm_source=share&utm_medium=member_android "
+                target="_blank" class="read-more-btn link">Click Me!</a>
+            </div>
+          </div>
+        </div>
+        <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/images/WhatsApp Image 2023-10-11 at 9.48.27 PM.jpeg" class="card-img-top" alt="..."
+              style="height: 320px;" />
+            <div class="card-body text-center">
+              <h4 class="card-title">Wavez 2023</h4>
+              <span class="badge bg-secondary badge-pill">IIT MADRAS</span>
+              <span class="badge bg-secondary badge-pill">ROBOTICS</span>
+              <span class="badge bg-secondary badge-pill mb-2">15/04/2023</span><br />
+              <a href="https://www.linkedin.com/posts/mick-suraj-062b36252_iitmadras-robotics-competition2023-activity-7064649546282258433-nqNf?utm_source=share&utm_medium=member_android "
+                target="_blank" class="read-more-btn link">Click Me!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- blog section starts -->
+  <section class="blog mt-5 pb-5" id="blog">
+    <div class="heading text-center pt-5">
+      <small>Latest News</small>
+      <h3>Blog & Articles</h3>
+    </div>
+    <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+      <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+        <div class="card">
+          <video controls>
+            <source src="./images/video/Mick video.mp4" type="video/mp4" class="card-img-top rounded-4">
+          </video>
+          <div class="card-body px-4">
+            <small>By Mick Suraj</small><span class="ms-3">Oct 12,2023</span>
+            <h4 class="card-title">
+              <a href="">Introduction about me</a>
+            </h4>
+            <p class="text-muted">
+              "As a full-stack developer, I excel in HTML, CSS, JavaScript, React.js, jQuery, and Sass on the frontend.
+              On the backend, I leverage Python and Django for secure, feature-rich applications with strong API design
+              and efficient database management."
+            </p>
+            <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal1">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 website all">
+        <div class="card">
+          <video controls>
+            <source src="./images/video/gratitude video.mp4" type="video/mp4" class="card-img-top rounded-4">
+          </video>
+          <div class="card-body px-4">
+            <small>By Mick Suraj</small><span class="ms-3">Oct 13,2023</span>
+            <h4 class="card-title">
+              <a href="">Thank you for Visiting my Website</a>
+            </h4>
+            <p class="text-muted">
+              "Your visit to my portfolio is deeply appreciated, fueling my passion for technology and innovation. Let's
+              collaborate, learn, and grow in the ever-evolving world of web development. Your feedback and insights are
+              invaluable."
+            </p>
+            <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal2">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+        <div class="card">
+          <video controls>
+            <source src="./images/video/invideo-ai-1080 Journey of a Full-Stack Developer 2023-10-12.mp4"
+              type="video/mp4" class="card-img-top rounded-4">
+          </video>
+          <div class="card-body px-4">
+            <small>By Mick Suraj</small><span class="ms-3">Oct 14,2023</span>
+            <h4 class="card-title">
+              <a href="">Through Out my Course</a>
+            </h4>
+            <p class="text-muted">
+              "In a few months, my full-stack development course transformed me. I mastered HTML, CSS, JavaScript, React
+              for frontend, and Python, Django for backend. I've tackled diverse challenges, honed my skills, and
+              eagerly embrace what's next."
+            </p>
+            <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal3">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- here we will make modals if Read more link is clicked the modal will popup -->
+      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i
+                class="bi bi-x-circle-fill"></i></button>
+
+            <div class="modal-body px-4">
+              <div class="img">
+                <img src="images/male.png" class="img-fluid" alt="">
+              </div>
+              <div class="content mt-3">
+                <small>By Mick Suraj</small><span class="text-muted ms-2">Oct 12,2023</span>
+                <h4 class="card-title mt-3">Introduction about me</h4>
+                <div class="social-links mt-4">
+                  <button href="" class="rounded-pill dribble">
+                    <i class="bi bi-instagram"></i>
+                  </button>
+                  <button href="" class="rounded-pill whatsapp">
+                    <i class="bi bi-whatsapp"></i>
+                  </button>
+                  <button href="" class="rounded-pill behance">
+                    <i class="bi bi-linkedin"></i>
+                  </button>
+                </div>
+                <p class="text-muted mt-3">"As a full-stack developer, I bring a versatile skill set to web development.
+                  On the frontend, I excel in
+                  HTML, CSS, JavaScript, and advanced frameworks like React.js. I'm proficient in jQuery and adept at
+                  using
+                  Sass for efficient CSS development. On the backend, I rely on Python and Django to create robust and
+                  secure server-side applications. My expertise spans RESTful API design, database management, and user
+                  authentication. From elegant user interfaces to feature-rich web apps and optimized databases, I
+                  complete
+                  projects with attention to detail and proficiency."</p>
+              </div>
+            </div>
+            <div class="heading px-2">
+              <h3 class="fs-3 ms-3">Leave A Comment</h3>
+            </div>
+            <div class="contact-form ms-3 mt-3 pb-4 px-2">
+              <div class="mb-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name" />
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail" />
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Mobile No." />
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message"
+                  rows="5"></textarea>
+              </div>
+              <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                Submit
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i
+                class="bi bi-x-circle-fill"></i></button>
+
+            <div class="modal-body px-4">
+              <div class="img">
+                <img src="images/female2.png" class="img-fluid" alt="">
+              </div>
+              <div class="content mt-3">
+                <small>By Mick Suraj</small><span class="text-muted ms-2 ms-md-0">Oct 13,2023</span>
+                <h4 class="card-title mt-3">Thank you for Visiting my Website</h4>
+                <div class="social-links mt-4">
+                  <button href="" class="rounded-pill dribble">
+                    <i class="bi bi-instagram"></i>
+                  </button>
+                  <button href="" class="rounded-pill whatsapp">
+                    <i class="bi bi-whatsapp"></i>
+                  </button>
+                  <button href="" class="rounded-pill behance">
+                    <i class="bi bi-linkedin"></i>
+                  </button>
+                </div>
+                <p class="text-muted mt-3">"Thank you for exploring my portfolio. Your visit is truly appreciated. It
+                  reflects a shared passion for
+                  creativity and technology, motivating me as a full-stack developer to push boundaries. Committed to
+                  innovation and user-centric solutions, your visit fuels my drive in this dynamic field.
+
+                  Web development is an ever-evolving journey, and I'm excited to join this adventure with you. Let's
+                  collaborate, share knowledge, and contribute to the web development community's growth.
+
+                  Your feedback, questions, or opportunities are welcome. Your insights are invaluable. Thank you for
+                  visiting."</p>
+              </div>
+            </div>
+            <div class="heading px-2">
+              <h3 class="fs-3 ms-3">Leave A Comment</h3>
+            </div>
+            <div class="contact-form ms-3 mt-3 pb-4 px-2">
+              <div class="mb-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name" />
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail" />
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Mobile No." />
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message"
+                  rows="5"></textarea>
+              </div>
+              <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                Submit
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i
+                class="bi bi-x-circle-fill"></i></button>
+
+            <div class="modal-body px-4">
+              <div class="img">
+                <img src="images/bg.png" class="img-fluid" alt="">
+              </div>
+              <div class="content mt-3">
+                <small>By Mick Suraj</small><span class="text-muted ms-2 ms-md-0">Oct 14,2023</span>
+                <h4 class="card-title mt-3">Through Out my Course</h4>
+                <div class="social-links mt-4">
+                  <button href="" class="rounded-pill dribble">
+                    <i class="bi bi-instagram"></i>
+                  </button>
+                  <button href="" class="rounded-pill whatsapp">
+                    <i class="bi bi-whatsapp"></i>
+                  </button>
+                  <button href="" class="rounded-pill behance">
+                    <i class="bi bi-linkedin"></i>
+                  </button>
+                </div>
+                <p class="text-muted mt-3"> My experience with the full-stack development course has been truly
+                  transformative. Over just a few
+                  months, I've acquired a diverse skill set, mastering both frontend and backend technologies. I can now
+                  craft stunning, responsive web interfaces using HTML, CSS, and JavaScript. Plus, I've harnessed the
+                  power
+                  of React for dynamic user experiences.
+
+                  On the backend, I've delved into the world of Python and Django, and it's been amazing to see how I
+                  can
+                  build secure, scalable server-side applications and craft RESTful APIs. The journey has been a
+                  reflection
+                  of the dynamic nature of web development. I've seamlessly integrated databases, tackled complex
+                  authentication and authorization challenges, and optimized database performance.
+
+                  With each project, I've honed my problem-solving skills and coding expertise. It's been an inspiring
+                  journey of growth and determination. Whether it's creating elegant user interfaces or architecting
+                  feature-rich web applications, my full-stack proficiency has opened up a world of opportunities. I
+                  can't
+                  wait to see what I'll achieve next.</p>
+              </div>
+            </div>
+            <div class="heading px-2">
+              <h3 class="fs-3 ms-3">Leave A Comment</h3>
+            </div>
+            <div class="contact-form ms-3 mt-3 pb-4 px-2">
+              <div class="mb-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name" />
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail" />
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Mobile No." />
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message"
+                  rows="5"></textarea>
+              </div>
+              <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                Submit
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- blog section ends here -->
+
+  <!-- contact section starts -->
+  <section class="contact py-5" id="contact">
+    <div class="heading text-center">
+      <small>Get in Touch</small>
+      <h3>Any Questions? Feel Free to Contact</h3>
+    </div>
+    <div class="row justify-content-evenly mt-5">
+      <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+        <div class="row justify-content-evenly">
+          <div class="col-1">
+            <i class="bi bi-geo-alt-fill"></i>
+          </div>
+          <div class="col-11">
+            <p>121 King Street Thrissur Kerala, 680712, India</p>
+          </div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col-1">
+            <i class="bi bi-telephone-fill"></i>
+          </div>
+          <div class="col-11">
+            <p>+91 9999999999</p>
+          </div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col-1">
+            <i class="bi bi-send-fill"></i>
+          </div>
+          <div class="col-11">
+            <p>micksuraj999@gmail.com</p>
+          </div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col-1">
+            <i class="bi bi-globe-americas"></i>
+          </div>
+          <div class="col-11">
+            <p>micksuraj.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+        <form id="myForm">
+          <div id="contact-form">
+            <div class="mb-3">
+              <input type="text" class="form-control" id="nameInput" placeholder="Name" required />
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="emailInput" placeholder="E-mail" required />
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="mobileInput" placeholder="Mobile No." required />
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" id="messageInput" placeholder="Message" rows="5" required></textarea>
+            </div>
+            <input class="submitButton c-btn h-btn mt-3 py-3 px-5 rounded-pill" id="submitButton" type="submit" value="Submit"
+              onclick="openPopup()">
+            <div class="popup" id="popup">
+              <img src="./images/accept.png" alt="">
+              <h2>Thank You !</h2>
+              <p>Your details has been successfully submitted. Thanks!</p>
+              <button type="button" onclick="closePopup()">OK</button>
+            </div>
+          </div>
+        </form>
+      </div>
+  </section>
+  <!-- You can add more content or customize the success message here. -->
+  </div>
+  </div>
+
+  <!-- contact section ends here -->
+
+  <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+  <button type="button" class="btn btn-floating btn-lg rounded-pill" id="btn-back-to-top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- footer section starts  -->
+  <footer class="text-center text-muted py-4">
+    <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+    <div class="link-group mt-5" data-aos="fade-up">
+      <a href="#home">Home</a>
+      <div class="vr"></div>
+      <a href="#about">About</a>
+      <div class="vr"></div>
+      <a href="#service">Service</a>
+      <div class="vr"></div>
+      <a href="#portfolio">Portfolio</a>
+      <div class="vr"></div>
+      <a href="#blog">Blog</a>
+      <div class="vr"></div>
+      <a href="#contact">Contact</a>
+      <div class="vr"></div>
+      <a href="#achievements">Achievements</a>
+    </div>
+    <div class="social-links mt-5" data-aos="fade-up">
+      <button href="" class="rounded-pill dribble">
+        <a href="https://www.instagram.com/invites/contact/?i=1c8dz41fw5oou&utm_content=6ezlngb" target="_blank"><i
+            class="bi bi-instagram"></i></a>
+      </button>
+      <button href="" class="rounded-pill whatsapp">
+        <a href="https://www.facebook.com/mick.suraj.1" target="_blank"><i class="bi bi-facebook"></i></a>
+      </button>
+      <button href="" class="rounded-pill behance">
+        <a href="https://in.linkedin.com/in/mick-suraj-062b36252" target="_blank"><i class="bi bi-linkedin"></i></a>
+      </button>
+      <button href="" class="rounded-pill git">
+        <a href="https://github.com/Micksuraj777" target="_blank"><i class="bi bi-github"></i></a>
+      </button>
+    </div>
+    <hr class="text-muted my-4" />
+
+    <p>@Copyright 2023 Portfolio | All Rights Reserved.</p>
+  </footer>
+  <!-- footer section ends here -->
+
+  <!-- bootstrap javascript cdn link  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <!-- AOS library javascript link  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    // initializing AOS library
+    AOS.init({
+      duration: 1000,
+      offset: 50,
+    });
+  </script>
+  <!-- custom js file linking -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
